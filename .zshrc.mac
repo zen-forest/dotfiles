@@ -1,0 +1,26 @@
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/tim/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+. "$HOME/.local/bin/env"
+
+# Node
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# project aliases
+alias nova='cd ~/Code/Nova'
+alias backend='cd ~/Code/Nova/Backend'
+alias frontend='cd ~/Code/Nova/Frontend'
+
+
+# Aliases
+alias code='cd ~/Code'
+alias ~='cd ~'
+alias ..='cd ..'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
